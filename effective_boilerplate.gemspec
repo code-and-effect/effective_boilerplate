@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Code and Effect']
   spec.email       = ['info@codeandeffect.com']
   spec.homepage    = 'https://github.com/code-and-effect/effective_boilerplate'
-  spec.summary     = 'Users have many boilerplate through representatives.'
-  spec.description = 'Users have many boilerplate through representatives.'
+  spec.summary     = 'The effective boilerplate for a new rails engine.'
+  spec.description = 'The effective boilerplate for a new rails engine.'
   spec.license     = 'MIT'
 
   spec.files = Dir["{app,config,db,lib}/**/*"] + ['MIT-LICENSE', 'Rakefile', 'README.md']
