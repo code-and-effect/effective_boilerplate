@@ -2,6 +2,12 @@
 
 The boilerplate to an effective gem.
 
+```
+cp -r effective_boilerplate effective_new_gem
+cd new_gem
+deep_rename boilerplate new_gem
+```
+
 ## Getting Started
 
 This requires Rails 6+ and Twitter Bootstrap 4 and just works with Devise.
