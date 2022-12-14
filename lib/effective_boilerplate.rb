@@ -7,7 +7,8 @@ module EffectiveBoilerplate
 
   def self.config_keys
     [
-      :layout
+      :layout,
+      :mailer, :parent_mailer, :deliver_method, :mailer_layout, :mailer_sender, :mailer_admin, :mailer_subject, :use_effective_email_templates
     ]
   end
 
