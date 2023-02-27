@@ -7,9 +7,10 @@ module EffectiveBoilerplate
       eval File.read("#{config.root}/config/effective_boilerplate.rb")
     end
 
-    # Include acts_as_addressable concern and allow any ActiveRecord object to call it
+    # Include acts_as_boilerplate concern and allow any ActiveRecord object to call it
     initializer 'effective_boilerplate.active_record' do |app|
       app.config.to_prepare do
+        #ActiveRecord::Base.extend(ActsAsBoilerplate::Base)
       end
     end
 
